@@ -9,7 +9,7 @@ public class Main {
         //task1
         System.out.println("Task №1");
         Methods example = new Methods();
-        String [] arrayString = {"Я", "Лошара"};
+        String [] arrayString = {"Я", "Лошадь"};
         Integer[] arrayInt = {1,4,6,7};
        	example.changeElement(arrayString, 0,1);
        	example.changeElement(arrayInt, 0,arrayInt.length-1);
@@ -17,7 +17,7 @@ public class Main {
         System.out.println(Arrays.toString(arrayInt));
         //task №2
         System.out.println("Task №2");
-        arrayString = new String[]{"Сам", "Лошара"};
+        arrayString = new String[]{"Сам", "ты","Лошадь"};
         Double[] arrayDouble = new Double[]{3.0, 6.0, 3.14,2.25};
         ArrayList list = example.arrayToList(arrayDouble);
         System.out.println(list);
